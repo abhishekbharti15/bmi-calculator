@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+background-color: rgb(0, 0, 34);;
+  
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  position: absolute;
+  height:600px;
+  width: 300px;
+}
+.box {
+  min-width: 250px;
+  background: #fafafa;
+  border-radius: 38px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 10px 0;
+}
+.content {
+  padding: 0 20px;
+}
+.input {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 28px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.input label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(170, 95, 240);
+  width: 60%;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+button#calculate {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  background: rgb(170, 95, 240);
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 12px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  transition: background 0.2s ease;
+}
+button#calculate:hover {
+  background: rgb(139, 57, 216);
+  cursor: pointer;
+}
+.result {
+  padding: 20px 10px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.result #result {
+  font-size: 36px;
+  font-weight: 900;
+  color: rgb(170, 95, 240);
+  background-color: #eaeaea;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
+#comment {
+  color: rgb(170, 95, 240);
+  font-weight: 800;
+}
+/* Youtube link */
+.link {
+  position: fixed;
+  background-color: #d12322;
+  padding: 23px 40px;
+  right: -90px;
+  border-radius: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.1s ease-in-out;
+}
+
+.link i {
+  padding-left: 7px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  background-color: black;
+}
+
+
+
+/* @media (max-width:450px){
+    .container {
+        height:500px;
+        width: 200px; 
+      }
+
+      body {
+        height: 100vh;
+        width: 100vb;
+    }
+} */
